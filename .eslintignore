@@ -1,0 +1,36 @@
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Node modules
+node_modules/
+
+# Public assets
+public/
+
+# Environment variables
+.env*
+
+# Cache
+.cache/
+
+# Development files
+*.log
+*.lock
+.DS_Store
+
+# Generated files
+**/generated/
+
+# Third-party code
+src/vendor/
+
+# Allow ESLint for most source files, but ignore specific files with issues
+src/app/api/extractData/route.ts
+src/app/api/insights/route.ts
+src/app/components/expense-detail.tsx
+src/app/context/auth-context.tsx
+src/app/insights/page.tsx
+src/db/schema.ts 
